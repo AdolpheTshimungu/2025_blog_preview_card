@@ -91,3 +91,5 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+# 2025_blog_preview_card
+A responsive blog preview card built with HTML and CSS for a front-end challenge.
