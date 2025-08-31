@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.main {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 330px;
+    height: 500px;
+    margin: 0px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+    gap: 0px;
+}
+
+.main .image-article {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.main p {
+    display: flex;
+    flex-direction: column;
+    font-family: "Figtree", serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.main p span {
+    font-weight: 800;
+    border-radius: 5px;
+    border: 1px rgb(53, 44, 44);
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.main p span:hover {
+    background-color: hsl(47, 88%, 80%);
+    cursor: pointer;
+}
+
+.main h2 {
+    font-family: "Figtree", serif;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.auteur {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.auteur img {
+    width: 10%;
+}
+
+.auteur span {
+    font-weight: 900;
+}
+
+@media (min-width: 1080px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        padding: 200px;
+        background-color: hsl(47, 88%, 63%);
+    }
+
+    .main {
+        display: flex;
+        background-color: hsl(0, 0%, 100%);
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        width: 150px;
+        height: 220px;
+        margin: auto;
+        box-shadow: 10px 10px 5px black;
+        border-radius: 10px;
+        gap: 0px;
+    }
+
+    .main .image-article {
+        width: auto;
+        border-radius: 10px;
+    }
+
+    .main p {
+        display: flex;
+        flex-direction: column;
+        font-family: "Figtree", serif;
+        font-size: 8px;
+        font-weight: 200;
+    }
+
+    .main p span {
+        font-weight: 800;
+        border-radius: 5px;
+        border: 1px rgb(53, 44, 44);
+        background-color: hsl(47, 88%, 63%);
+        padding: 5px;
+        width: 32%;
+        text-align: center;
+    }
+
+    .main p span:hover {
+        background-color: hsl(47, 88%, 80%);
+        cursor: pointer;
+    }
+
+    .main h2 {
+        font-family: "Figtree", serif;
+        font-weight: 900;
+        margin: 0px;
+        font-size: x-small;
+    }
+
+    .main h2:hover {
+        color: burlywood;
+        cursor: pointer;
+    }
+
+    .auteur {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .auteur img {
+        width: 10%;
+    }
+
+    .auteur span {
+        font-weight: 900;
+        font-size: 8px;
+    }
+}
