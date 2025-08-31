@@ -24,9 +24,9 @@ body {
     background-color: hsl(0, 0%, 100%);
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
-    width: 330px;
-    height: 500px;
+    padding: 1.25rem;
+    width: 20rem;
+    height: 33rem;
     margin: 0px;
     box-shadow: 10px 10px 5px black;
     border-radius: 10px;
@@ -62,16 +62,17 @@ body {
     cursor: pointer;
 }
 
-.main h2 {
+.main h1 {
     font-family: "Figtree", serif;
     font-weight: 900;
     margin: 0px;
+    font-size: 1.4rem;
 }
 
 .auteur {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.8rem;
 }
 
 .auteur img {
@@ -90,7 +91,7 @@ body {
         justify-content: center;
         height: 100vh;
         margin: 0;
-        padding: 200px;
+        padding: 12.5rem;
         background-color: hsl(47, 88%, 63%);
     }
 
@@ -99,9 +100,9 @@ body {
         background-color: hsl(0, 0%, 100%);
         flex-direction: column;
         justify-content: space-between;
-        padding: 10px;
-        width: 150px;
-        height: 220px;
+        padding: 0.6rem;
+        width: 13rem;
+        height: 22rem;
         margin: auto;
         box-shadow: 10px 10px 5px black;
         border-radius: 10px;
@@ -117,7 +118,7 @@ body {
         display: flex;
         flex-direction: column;
         font-family: "Figtree", serif;
-        font-size: 8px;
+        font-size: 0.7rem;
         font-weight: 200;
     }
 
@@ -136,14 +137,14 @@ body {
         cursor: pointer;
     }
 
-    .main h2 {
+    .main h1 {
         font-family: "Figtree", serif;
         font-weight: 900;
         margin: 0px;
-        font-size: x-small;
+        font-size: 1rem;
     }
 
-    .main h2:hover {
+    .main h1:hover {
         color: burlywood;
         cursor: pointer;
     }
